@@ -5,9 +5,9 @@
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
 }
-@media screen and (max-width: 568px) {
+@media (max-width: 320px) {
   .photo-grid {
-      width: 92%; /* Вместо calc() */
-      gap: 12px;
+    gap: 12px;
+    padding: 0 16px;
   }
 }
