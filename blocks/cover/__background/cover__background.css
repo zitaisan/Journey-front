@@ -37,6 +37,6 @@
   }
   @media (hover: none) and (pointer: coarse), (max-width: 1024px) {
     .cover__background:hover::before {
-      opacity: .8; /* Возвращаем стандартное значение */
+      opacity: .3; /* Возвращаем стандартное значение */
     }
   }
