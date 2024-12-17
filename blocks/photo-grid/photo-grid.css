@@ -1,13 +1,13 @@
-.photo-grid{
-    margin: 0 auto ;
-    width: 92.5%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    gap: 16px;
+.photo-grid {
+  margin: 0 auto;
+  width: 92.5%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  gap: 16px;
 }
 @media screen and (max-width: 568px) {
   .photo-grid {
-    width: calc(100% - 2 * 16px);
-    gap: 12px;
+      width: 92%; /* Вместо calc() */
+      gap: 12px;
   }
 }
