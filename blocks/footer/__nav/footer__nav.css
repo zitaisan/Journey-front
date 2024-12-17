@@ -4,3 +4,9 @@
     gap: 18px;
 
 }
+@media screen and (max-width: 568px) {
+    .footer__items {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }

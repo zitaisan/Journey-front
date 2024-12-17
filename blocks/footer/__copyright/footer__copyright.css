@@ -3,3 +3,8 @@
     font-size: 14px;
     line-height: 16px; 
 }
+@media screen and (max-width: 568px) {
+    .footer__copyright {
+      line-height: 1;
+    }
+  }

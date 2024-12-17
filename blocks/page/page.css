@@ -20,3 +20,8 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
 }
+@media screen and (max-width: 568px) {
+    .page {
+      padding: 16px 0 24px;
+    }
+  }
