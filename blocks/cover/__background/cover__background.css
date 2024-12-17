@@ -30,8 +30,13 @@
   .cover__background:hover::before {
     opacity: .8;
   }
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 568px) {
     .cover__background {
       min-height: 200px;
+    }
+  }
+  @media (hover: none) and (pointer: coarse), (max-width: 1024px) {
+    .cover__background:hover::before {
+      opacity: .8; /* Возвращаем стандартное значение */
     }
   }
