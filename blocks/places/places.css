@@ -1,8 +1,9 @@
 .places{
-    width: calc(100% - 2 * 148px);
-    margin: 0 auto;
-    display: grid;
-    grid-row-gap: 80px;
+  display: flex;
+  flex-direction: column;
+  max-width: calc(100% - 2 * 148px);
+  margin: 0 auto;
+  align-items: center;
 }
 @media screen and (max-width: 568px) {
     .places {
