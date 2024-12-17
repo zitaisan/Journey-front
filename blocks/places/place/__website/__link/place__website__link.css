@@ -1,0 +1,14 @@
+.place__website__link{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color:white;
+    text-decoration-line: underline;
+}
+.place__website__link:hover{
+    color:#D4D5D5;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    text-decoration-line: underline;
+}

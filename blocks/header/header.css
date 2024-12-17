@@ -1,0 +1,15 @@
+.header{
+    margin: 28px auto 48px;
+    height: auto;
+    display: flex;
+    width: calc(100% - 2 * 48px);
+    justify-content: space-between;
+    align-items: center;
+    
+}
+@media screen and (max-width: 320px){
+    .header{
+        width: calc(100% - 2 * 16px);
+    }
+    
+}
