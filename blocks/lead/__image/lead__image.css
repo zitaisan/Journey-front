@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 320px) {
     .lead__image {
       margin: 40px auto 0;
     }
